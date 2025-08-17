@@ -285,6 +285,7 @@ class DateTimeParser:
         # date formats (ISO 8601 and others) to test against
         # NOTE: YYYYMM is omitted to avoid confusion with YYMMDD (no longer part of ISO 8601, but is still often used)
         formats = [
+            "YYYY:MM:DD", #added this 4/23/25 noah becuase just_heic wans't working.
             "YYYY-MM-DD",
             "YYYY-M-DD",
             "YYYY-M-D",
